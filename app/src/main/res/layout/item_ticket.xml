@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3pt"
+    android:background="@color/gray">
+
+    <LinearLayout
+        android:background="@drawable/bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivAnimalImage"
+            android:layout_width="50pt"
+            android:layout_height="60pt"
+            app:srcCompat="@drawable/bear" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAnimalName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bear"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAnimalDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bear likes meats." />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
